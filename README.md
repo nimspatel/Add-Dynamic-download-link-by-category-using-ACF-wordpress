@@ -128,3 +128,9 @@ function download_shortcode( $atts ){
   }
 add_shortcode( 'download_posts', 'download_shortcode' );	
 </pre>
+
+
+5. Add shortcode in page
+<pre>
+[download_posts category="29"]
+</pre>
